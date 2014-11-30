@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55106BBE19EF532700B042E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55106BBD19EF532700B042E0 /* QuartzCore.framework */; };
+		5544175319E3833C008BA098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544175219E3833C008BA098 /* main.m */; };
+		5544175619E3833C008BA098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544175519E3833C008BA098 /* AppDelegate.m */; };
+		5544175919E3833C008BA098 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544175819E3833C008BA098 /* MasterViewController.m */; };
+		5544175C19E3833C008BA098 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544175B19E3833C008BA098 /* DetailViewController.m */; };
+		5544175F19E3833D008BA098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5544175D19E3833D008BA098 /* Main.storyboard */; };
+		5544176119E3833D008BA098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5544176019E3833D008BA098 /* Images.xcassets */; };
+		5544176419E3833D008BA098 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5544176219E3833D008BA098 /* LaunchScreen.xib */; };
+		5544177019E3833D008BA098 /* HellowPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544176F19E3833D008BA098 /* HellowPhotoViewerTests.m */; };
+		5544177E19E3864A008BA098 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544177D19E3864A008BA098 /* MyCollectionViewCell.m */; };
+		5544178119E38AD6008BA098 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544178019E38AD6008BA098 /* MyCollectionViewController.m */; };
+		55E077C01A19CF890056754D /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E077BD1A19CF890056754D /* test3.png */; };
+		55E077C11A19CF890056754D /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55E077BE1A19CF890056754D /* test1.jpg */; };
+		55E077C21A19CF890056754D /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55E077BF1A19CF890056754D /* test2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5544176A19E3833D008BA098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5544174519E3833C008BA098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5544174C19E3833C008BA098;
+			remoteInfo = HellowPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55106BBD19EF532700B042E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5544174D19E3833C008BA098 /* HellowPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellowPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5544175119E3833C008BA098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5544175219E3833C008BA098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5544175419E3833C008BA098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5544175519E3833C008BA098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5544175719E3833C008BA098 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5544175819E3833C008BA098 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5544175A19E3833C008BA098 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5544175B19E3833C008BA098 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5544175E19E3833D008BA098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5544176019E3833D008BA098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5544176319E3833D008BA098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5544176919E3833D008BA098 /* HellowPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5544176E19E3833D008BA098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5544176F19E3833D008BA098 /* HellowPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellowPhotoViewerTests.m; sourceTree = "<group>"; };
+		5544177C19E3864A008BA098 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		5544177D19E3864A008BA098 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		5544177F19E38AD6008BA098 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		5544178019E38AD6008BA098 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		55E077BD1A19CF890056754D /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
+		55E077BE1A19CF890056754D /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		55E077BF1A19CF890056754D /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5544174A19E3833C008BA098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55106BBE19EF532700B042E0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5544176619E3833D008BA098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5544174419E3833C008BA098 = {
+			isa = PBXGroup;
+			children = (
+				55106BBD19EF532700B042E0 /* QuartzCore.framework */,
+				5544174F19E3833C008BA098 /* HellowPhotoViewer */,
+				5544176C19E3833D008BA098 /* HellowPhotoViewerTests */,
+				5544174E19E3833C008BA098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5544174E19E3833C008BA098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5544174D19E3833C008BA098 /* HellowPhotoViewer.app */,
+				5544176919E3833D008BA098 /* HellowPhotoViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5544174F19E3833C008BA098 /* HellowPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				5544175419E3833C008BA098 /* AppDelegate.h */,
+				5544175519E3833C008BA098 /* AppDelegate.m */,
+				5544175719E3833C008BA098 /* MasterViewController.h */,
+				5544175819E3833C008BA098 /* MasterViewController.m */,
+				5544177C19E3864A008BA098 /* MyCollectionViewCell.h */,
+				5544177D19E3864A008BA098 /* MyCollectionViewCell.m */,
+				5544177F19E38AD6008BA098 /* MyCollectionViewController.h */,
+				5544178019E38AD6008BA098 /* MyCollectionViewController.m */,
+				5544175A19E3833C008BA098 /* DetailViewController.h */,
+				5544175B19E3833C008BA098 /* DetailViewController.m */,
+				5544175D19E3833D008BA098 /* Main.storyboard */,
+				554417C119E3DFC8008BA098 /* image */,
+				5544176019E3833D008BA098 /* Images.xcassets */,
+				5544176219E3833D008BA098 /* LaunchScreen.xib */,
+				5544175019E3833C008BA098 /* Supporting Files */,
+			);
+			path = HellowPhotoViewer;
+			sourceTree = "<group>";
+		};
+		5544175019E3833C008BA098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5544175119E3833C008BA098 /* Info.plist */,
+				5544175219E3833C008BA098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5544176C19E3833D008BA098 /* HellowPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5544176F19E3833D008BA098 /* HellowPhotoViewerTests.m */,
+				5544176D19E3833D008BA098 /* Supporting Files */,
+			);
+			path = HellowPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		5544176D19E3833D008BA098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5544176E19E3833D008BA098 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		554417C119E3DFC8008BA098 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				55E077BD1A19CF890056754D /* test3.png */,
+				55E077BE1A19CF890056754D /* test1.jpg */,
+				55E077BF1A19CF890056754D /* test2.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5544174C19E3833C008BA098 /* HellowPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5544177319E3833D008BA098 /* Build configuration list for PBXNativeTarget "HellowPhotoViewer" */;
+			buildPhases = (
+				5544174919E3833C008BA098 /* Sources */,
+				5544174A19E3833C008BA098 /* Frameworks */,
+				5544174B19E3833C008BA098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellowPhotoViewer;
+			productName = HellowPhotoViewer;
+			productReference = 5544174D19E3833C008BA098 /* HellowPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5544176819E3833D008BA098 /* HellowPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5544177619E3833D008BA098 /* Build configuration list for PBXNativeTarget "HellowPhotoViewerTests" */;
+			buildPhases = (
+				5544176519E3833D008BA098 /* Sources */,
+				5544176619E3833D008BA098 /* Frameworks */,
+				5544176719E3833D008BA098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5544176B19E3833D008BA098 /* PBXTargetDependency */,
+			);
+			name = HellowPhotoViewerTests;
+			productName = HellowPhotoViewerTests;
+			productReference = 5544176919E3833D008BA098 /* HellowPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5544174519E3833C008BA098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Howard Hong";
+				TargetAttributes = {
+					5544174C19E3833C008BA098 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5544176819E3833D008BA098 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5544174C19E3833C008BA098;
+					};
+				};
+			};
+			buildConfigurationList = 5544174819E3833C008BA098 /* Build configuration list for PBXProject "HellowPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5544174419E3833C008BA098;
+			productRefGroup = 5544174E19E3833C008BA098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5544174C19E3833C008BA098 /* HellowPhotoViewer */,
+				5544176819E3833D008BA098 /* HellowPhotoViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5544174B19E3833C008BA098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E077C21A19CF890056754D /* test2.jpg in Resources */,
+				5544175F19E3833D008BA098 /* Main.storyboard in Resources */,
+				5544176419E3833D008BA098 /* LaunchScreen.xib in Resources */,
+				5544176119E3833D008BA098 /* Images.xcassets in Resources */,
+				55E077C01A19CF890056754D /* test3.png in Resources */,
+				55E077C11A19CF890056754D /* test1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5544176719E3833D008BA098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5544174919E3833C008BA098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5544175619E3833C008BA098 /* AppDelegate.m in Sources */,
+				5544175919E3833C008BA098 /* MasterViewController.m in Sources */,
+				5544178119E38AD6008BA098 /* MyCollectionViewController.m in Sources */,
+				5544175319E3833C008BA098 /* main.m in Sources */,
+				5544175C19E3833C008BA098 /* DetailViewController.m in Sources */,
+				5544177E19E3864A008BA098 /* MyCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5544176519E3833D008BA098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5544177019E3833D008BA098 /* HellowPhotoViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5544176B19E3833D008BA098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5544174C19E3833C008BA098 /* HellowPhotoViewer */;
+			targetProxy = 5544176A19E3833D008BA098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5544175D19E3833D008BA098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5544175E19E3833D008BA098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5544176219E3833D008BA098 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5544176319E3833D008BA098 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5544177119E3833D008BA098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5544177219E3833D008BA098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5544177419E3833D008BA098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellowPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5544177519E3833D008BA098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellowPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5544177719E3833D008BA098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellowPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellowPhotoViewer.app/HellowPhotoViewer";
+			};
+			name = Debug;
+		};
+		5544177819E3833D008BA098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellowPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellowPhotoViewer.app/HellowPhotoViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5544174819E3833C008BA098 /* Build configuration list for PBXProject "HellowPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544177119E3833D008BA098 /* Debug */,
+				5544177219E3833D008BA098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5544177319E3833D008BA098 /* Build configuration list for PBXNativeTarget "HellowPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544177419E3833D008BA098 /* Debug */,
+				5544177519E3833D008BA098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5544177619E3833D008BA098 /* Build configuration list for PBXNativeTarget "HellowPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544177719E3833D008BA098 /* Debug */,
+				5544177819E3833D008BA098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5544174519E3833C008BA098 /* Project object */;
+}
